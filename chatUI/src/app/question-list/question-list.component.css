@@ -1,0 +1,34 @@
+/* query-results.component.css */
+
+h3 {
+    margin-bottom: 10px;
+}
+
+.result-item h4 {
+    margin-top: 0;
+}
+
+.result-item p {
+    margin-bottom: 5px;
+}
+/* styles.css or app.component.css */
+.results-container {
+    flex-grow: 1; /* Allow this section to grow and take up available space */
+    height: 400px; /* Set a fixed height for the results container */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border-top: 1px solid #444444; /* Optional: Add a border above results */
+    padding: 10px; /* Optional: Add some padding */
+    background-color: #1e1e1e; /* Optional: Background color for contrast */
+}
+
+.question{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.answer{
+    font-weight: lighter;
+    font-size: medium;
+    font-style: italic;
+    color: grey;
+}

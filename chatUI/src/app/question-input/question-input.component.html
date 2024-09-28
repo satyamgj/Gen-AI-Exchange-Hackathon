@@ -1,0 +1,7 @@
+<mat-form-field appearance="fill">
+  <mat-label>Ask your question</mat-label>
+  <input matInput [(ngModel)]="queryText" (keyup.enter)="submitQuery()" placeholder="Type your question here">
+  <button mat-icon-button matSuffix (click)="submitQuery()">
+    <mat-icon>send</mat-icon> <!-- Add send icon -->
+  </button>
+</mat-form-field>

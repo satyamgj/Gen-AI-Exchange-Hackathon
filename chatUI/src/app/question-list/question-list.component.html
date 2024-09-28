@@ -1,0 +1,8 @@
+<div class="results-container" *ngIf="results.length > 0">
+    <h3>Searches:</h3>
+    <div *ngFor="let result of results" class="result-item">
+      <h4 class="question"> {{ result.question }}</h4>
+      <p class="answer">{{ result.answer }}</p>
+      <small *ngIf="result.source">Source: {{ result.source }}</small>
+    </div>
+  </div>

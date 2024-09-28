@@ -1,0 +1,54 @@
+/* Set up main layout */
+.sidenav-container {
+    height: 100vh;
+  }
+  
+  mat-sidenav {
+    width: 300px;
+    background-color: #333333; /* Dark side nav */
+    color: white;
+  }
+  
+  mat-sidenav-content {
+    background-color: #121212; /* Black background for the main screen */
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  /* Chat interface styling */
+  .chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  .chat-message {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+  }
+  
+  .user-message {
+    background-color: #444;
+    text-align: right;
+  }
+  
+  .bot-message {
+    background-color: #2a2a2a;
+  }
+  
+  .chat-input {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .full-width {
+    flex: 1;
+    margin-right: 10px;
+  }
+  

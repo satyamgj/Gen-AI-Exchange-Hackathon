@@ -1,0 +1,103 @@
+/* Dark theme for the chat container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    margin: 0 auto;
+    width: 60%;
+    background-color: #1e1e1e; /* Dark background */
+    color: white; /* White text */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #2e2e2e; /* Slightly lighter dark */
+    border-bottom: 1px solid #444; /* Separator */
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #1e1e1e; /* Same dark background */
+    border-top: 1px solid #444; /* Separator */
+  }
+  
+  .input-box {
+    flex-grow: 1;
+    background-color: #333; /* Darker input box */
+    color: white;
+  }
+  
+  mat-card {
+    margin: 10px 0;
+    background-color: #333; /* Card background to match dark theme */
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+  }
+  
+  .user-message {
+    background-color: #4a4a4a; /* User message with lighter gray */
+    align-self: flex-end;
+  }
+  
+  .bot-message {
+    background-color: #3a3a3a; /* Bot message in slightly darker gray */
+    align-self: flex-start;
+  }
+  
+  mat-toolbar {
+    background-color: #1e1e1e; /* Dark toolbar */
+    color: white; /* White toolbar text */
+  }
+  
+  button.mat-raised-button {
+    background-color: #1976d2; /* Accent color */
+    color: white;
+  }
+  
+  button.mat-raised-button:hover {
+    background-color: #1565c0; /* Darker accent on hover */
+  }
+  
+  ::placeholder {
+    color: #bbb; /* Placeholder text color in input */
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #2e2e2e;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 8px;
+  }
+  
+  /* Style the mat-sidenav background */
+::ng-deep mat-sidenav {
+    background-color: black !important;
+    color: white; /* Optional: Make text inside white */
+  }
+  
+  /* Optional: Style the text and elements inside */
+  ::ng-deep mat-sidenav h2,
+  ::ng-deep mat-sidenav ul li {
+    color: white; /* Make text inside white */
+  }
+  
+  .side-nav-header{
+    margin-left: 10px;
+  }
+
+  h4{
+    color: grey;
+  }
